@@ -1,0 +1,886 @@
+[
+    {
+        "id":0,
+        "name":"Bad Bunny",
+        "img":"./img/artists/bad-bunny.jpg",
+        "desc":"Es un cantantante, compositor y productor puertorriqueño...",
+        "albums":[{
+            "id":0,
+            "name":"Un verano sin tí",
+            "year":2022,
+            "img":"./img/albums/un-verano-sin-ti.jpeg",
+            "songs":[
+                {
+                    "name":"Moscow Mule",
+                    "duration":"4:06",
+                    "link":"https://www.youtube.com/watch?v=p38WgakuYDo"
+                },
+                {
+                    "name":"Después de la playa",
+                    "duration":"3:51",
+                    "link":"https://www.youtube.com/watch?v=a5rlgE6dcBY"
+                },
+                {
+                    "name":"Me porto bonito",
+                    "duration":"2:59",
+                    "link":"https://www.youtube.com/watch?v=saGYMhApaH8"
+                },
+                {
+                    "name":"Tití me preguntó",
+                    "duration":"4:04",
+                    "link":"https://www.youtube.com/watch?v=Cr8K88UcO0s"
+                },
+                {
+                    "name":"Un ratito",
+                    "duration":"2:57",
+                    "link":"https://www.youtube.com/watch?v=tGhyQ7KanMU"
+                },
+                {
+                    "name":"Yo no soy celoso",
+                    "duration":"3:51",
+                    "link":"https://www.youtube.com/watch?v=kLUeP9E9f5k"
+                },
+                {
+                    "name":"Tarot",
+                    "duration":"3:58",
+                    "link":"https://www.youtube.com/watch?v=p38WgakuYDo"
+                },
+                {
+                    "name":"Neverita",
+                    "duration":"2:54",
+                    "link":"https://www.youtube.com/watch?v=ARWg160eaX4"
+                },
+                {
+                    "name":"La corriente",
+                    "duration":"3:19",
+                    "link":"https://www.youtube.com/watch?v=A95yW-LVnbY"
+                },
+                {
+                    "name":"Efecto",
+                    "duration":"3:34",
+                    "link":"https://www.youtube.com/watch?v=Nk8C9FdCdJQ"
+                }
+            ]
+        },
+        {
+            "id":1,
+            "name":"El último tour del mundo",
+            "year":2020,
+            "img":"./img/albums/el-ultimo-tour-del-mundo.jpeg",
+            "songs":[
+                {
+                    "name":"EL MUNDO ES MÍO",
+                    "duration":"2:45",
+                    "link":"https://www.youtube.com/watch?v=crP1orWqBpo"
+                },
+                {
+                    "name":"TE MUDASTE",
+                    "duration":"2:10",
+                    "link":"https://www.youtube.com/watch?v=4qt2P9Tcnhs"
+                },
+                {
+                    "name":"HOY COBRÉ",
+                    "duration":"2:42",
+                    "link":"https://www.youtube.com/watch?v=XJcXjUB0yqY"
+                },
+                {
+                    "name":"MALDITA POBREZA",
+                    "duration":"3:34",
+                    "link":"https://www.youtube.com/watch?v=ctutQRq76bU"
+                },
+                {
+                    "name":"LA NOCHE DE ANOCHE",
+                    "duration":"3:23",
+                    "link":"https://www.youtube.com/watch?v=f5omY8jVrSM"
+                },
+                {
+                    "name":"TE DESEO LO MEJOR",
+                    "duration":"2:20",
+                    "link":"https://www.youtube.com/watch?v=m3xFuFPxOnw"
+                },
+                {
+                    "name":"YO VISTO ASÍ",
+                    "duration":"3:12",
+                    "link":"https://www.youtube.com/watch?v=7pynaH-PPCA"
+                },
+                {
+                    "name":"HACIENDO QUE ME AMAS",
+                    "duration":"3:38",
+                    "link":"https://www.youtube.com/watch?v=xG9wDttvua8"
+                },
+                {
+                    "name":"BOOKER T",
+                    "duration":"2:37",
+                    "link":"https://www.youtube.com/watch?v=PGJ43zaam_0"
+                },
+                {
+                    "name":"LA DROGA",
+                    "duration":"2:42",
+                    "link":"https://www.youtube.com/watch?v=ZpOvwJv6ZOw"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name": "YHLQMDLG",
+            "year":2020,
+            "img":"./img/albums/YHLQMDLG.jpeg",
+            "songs":[
+                {
+                    "name":"Si veo a tu mamá",
+                    "duration":"2:51",
+                    "link":"https://www.youtube.com/watch?v=CPK_IdHe1Yg"
+                },
+                {
+                    "name":"La difícil",
+                    "duration":"2:43",
+                    "link":"https://www.youtube.com/watch?v=fEYUoBgYKzw"
+                },
+                {
+                    "name":"Pero ya no",
+                    "duration":"2:41",
+                    "link":"https://www.youtube.com/watch?v=bg82FqrCjcs"
+                },
+                {
+                    "name":"La santa",
+                    "duration":"3:27",
+                    "link":"https://www.youtube.com/watch?v=JUxITamPWrY"
+                },
+                {
+                    "name":"Yo perreo sola",
+                    "duration":"2:52",
+                    "link":"https://www.youtube.com/watch?v=GtSRKwDCaZM"
+                },
+                {
+                    "name":"Bichiyal",
+                    "duration":"3:17",
+                    "link":"https://www.youtube.com/watch?v=GxDo0jFfRJ0"
+                },
+                {
+                    "name":"Solía",
+                    "duration":"2:39",
+                    "link":"https://www.youtube.com/watch?v=bW4nKN0QL5A"
+                },
+                {
+                    "name":"La zona",
+                    "duration":"2:17",
+                    "link":"https://www.youtube.com/watch?v=hhFbO5JhaJE"
+                },
+                {
+                    "name":"Que malo",
+                    "duration":"2:48",
+                    "link":"https://www.youtube.com/watch?v=-4kAkkIw8JI"
+                },
+                {
+                    "name":"Vete",
+                    "duration":"3:12",
+                    "link":"https://www.youtube.com/watch?v=f5aDUB1NCnk"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name": "X 100pre",
+            "year":2019,
+            "img":"./img/albums/x-100pre.jpeg",
+            "songs":[
+                {
+                    "name":"Ni bien ni mal",
+                    "duration":"2:11",
+                    "link":"https://www.youtube.com/watch?v=4oiZdbwxUuQ"
+                },
+                {
+                    "name":"200 mph",
+                    "duration":"1:54",
+                    "link":"https://www.youtube.com/watch?v=8cJ7kufF5I4"
+                },
+                {
+                    "name":"Caro",
+                    "duration":"4:06",
+                    "link":"https://www.youtube.com/watch?v=bg64AFnRnkc"
+                },
+                {
+                    "name":"Solo de mí",
+                    "duration":"3:22",
+                    "link":"https://www.youtube.com/watch?v=7rbprAR_Reg"
+                },
+                {
+                    "name":"La romana",
+                    "duration":"4:02",
+                    "link":"https://www.youtube.com/watch?v=kPg3M4C9N9w"
+                },
+                {
+                    "name":"Si estuviésemos juntos",
+                    "duration":"2:34",
+                    "link":"https://www.youtube.com/watch?v=EB7G3fUUaeA"
+                },
+                {
+                    "name":"Estamos bien",
+                    "duration":"2:16",
+                    "link":"https://www.youtube.com/watch?v=bcHTl9h7TWI"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "name": "Oasis",
+            "year":2018,
+            "img":"./img/albums/oasis.jpg",
+            "songs":[
+                {
+                    "name":"Mojaita",
+                    "duration":"3:07",
+                    "link":"https://www.youtube.com/watch?v=hnm3IxupbgU"
+                },
+                {
+                    "name":"Yo le llego",
+                    "duration":"4:10",
+                    "link":"https://www.youtube.com/watch?v=X-og30D3lxs"
+                },
+                {
+                    "name":"Cuidao por ahí",
+                    "duration":"3:18",
+                    "link":"https://www.youtube.com/watch?v=zvAUZQxb0ME"
+                },
+                {
+                    "name":"Que pretendes",
+                    "duration":"3:42",
+                    "link":"https://www.youtube.com/watch?v=kPc3Pe42bGI"
+                },
+                {
+                    "name":"La canción",
+                    "duration":"4:03",
+                    "link":"https://www.youtube.com/watch?v=LxOTsiV4tkQ"
+                },
+                {
+                    "name":"Un peso",
+                    "duration":"4:37",
+                    "link":"https://www.youtube.com/watch?v=7o2_OnTFmmA"
+                },
+                {
+                    "name":"Odio",
+                    "duration":"4:31",
+                    "link":"https://www.youtube.com/watch?v=pXSY_NW73Eo"
+                },
+                {
+                    "name":"Como un bebé",
+                    "duration":"3:39",
+                    "link":"https://www.youtube.com/watch?v=HcwEyLhwL54"
+                }
+            ]
+        }]
+    },
+    {
+        "id":1,
+        "name":"Kidd Keo",
+        "desc":"Es uno de los mejores artistas de trap que ha dado España, con...",
+        "img":"https://cd1.taquilla.com/data/images/t/75/kidd-keo__330x275.jpg",
+        "albums":[{
+            "id":0,
+            "name":"Rockport Espacial 2",
+            "year":2021,
+            "img":"./img/albums/rockport-espacial-2.jpeg",
+            "songs":[
+                {
+                    "name":"Drifting & Burning",
+                    "duration":"2:51",
+                    "link":"https://www.youtube.com/watch?v=TFDcODhlpqg"
+                },
+                {
+                    "name":"Corrido Espacial",
+                    "duration":"3:43",
+                    "link":"https://www.youtube.com/watch?v=lKyLqFKPsAk"
+                },
+                {
+                    "name":"Yo Con Mi Man",
+                    "duration":"3:04",
+                    "link":"https://www.youtube.com/watch?v=EhpvI0r--9Q"
+                },
+                {
+                    "name":"Soy Así",
+                    "duration":"3:42",
+                    "link":"https://www.youtube.com/watch?v=lwCTOBKjMRM "
+                },
+                {
+                    "name":"Niño Roto",
+                    "duration":"3:13",
+                    "link":"https://www.youtube.com/watch?v=dodarqWUX2Q"
+                },
+                {
+                    "name":"TikTakLove",
+                    "duration":"3:16",
+                    "link":"https://www.youtube.com/watch?v=JDj2KZqiFnE"
+                }
+            ]
+        },
+        {
+            "id":1,
+            "name":"Rockport Espacial 1",
+            "year":2020,
+            "img":"./img/albums/rockport-espacial-1.jpeg",
+            "songs":[
+                {
+                    "name":"Nani",
+                    "duration":"2:33",
+                    "link":"https://www.youtube.com/watch?v=vcVd-arTVFw"
+                },
+                {
+                    "name":"I'm Ballin",
+                    "duration":"3:42",
+                    "link":"https://www.youtube.com/watch?v=uH6Kk_zHKYU"
+                },
+                {
+                    "name":"Kikiki",
+                    "duration":"3:19",
+                    "link":"https://www.youtube.com/watch?v=NFJ5rOnhlYY"
+                },
+                {
+                    "name":"Ma Vie",
+                    "duration":"3:53",
+                    "link":"https://www.youtube.com/watch?v=F70r21CLpn4 "
+                },
+                {
+                    "name":"Level Up",
+                    "duration":"3:38",
+                    "link":"https://www.youtube.com/watch?v=5Mfe0e73z9U"
+                }
+            ]
+        },
+        {
+            "id":2,
+            "name":"Back To Rockport",
+            "year":2020,
+            "img":"./img/albums/back-to-rockport.jpeg",
+            "songs":[
+                {
+                    "name":"24H",
+                    "duration":"2:41",
+                    "link":"https://www.youtube.com/watch?v=83zX5D88LgE"
+                },
+                {
+                    "name":"MONEY TILL I DIE",
+                    "duration":"2:33",
+                    "link":"https://www.youtube.com/watch?v=wOuM8girLuY"
+                },
+                {
+                    "name":"LOCO",
+                    "duration":"3:32",
+                    "link":"https://www.youtube.com/watch?v=VZEzB06SP28"
+                },
+                {
+                    "name":"I GOT CASH",
+                    "duration":"2:16",
+                    "link":"https://www.youtube.com/watch?v=VZEzB06SP28"
+                },
+                {
+                    "name":"ME FLIPA",
+                    "duration":"2:27",
+                    "link":"https://www.youtube.com/watch?v=VZEzB06SP28"
+                },
+                {
+                    "name":"SKY HIGH",
+                    "duration":"1:49",
+                    "link":"https://www.youtube.com/watch?v=QUgbgY_segQ"
+                },
+                {
+                    "name":"LIL BIT",
+                    "duration":"2:07",
+                    "link":"https://www.youtube.com/watch?v=GkSKSnt9rzs"
+                },
+                {
+                    "name":"DEMONS",
+                    "duration":"2:48",
+                    "link":"https://www.youtube.com/watch?v=xHOL4-RzQVE"
+                },
+                {
+                    "name":"FLEXER",
+                    "duration":"2:52",
+                    "link":"https://www.youtube.com/watch?v=ukFgRM2bXYM"
+                },
+                {
+                    "name":"MOON TALK",
+                    "duration":"3:05",
+                    "link":"https://www.youtube.com/watch?v=flMNxME0Bz0"
+                },
+                {
+                    "name":"VAMONOS",
+                    "duration":"2:34",
+                    "link":"https://www.youtube.com/watch?v=TJBY7pRZGaw"
+                },
+                {
+                    "name":"B&W",
+                    "duration":"2:55",
+                    "link":"https://www.youtube.com/watch?v=4AekU5sKTVo"
+                },
+                {
+                    "name":"TAMO AQUÍ",
+                    "duration":"2:45",
+                    "link":"https://www.youtube.com/watch?v=MuxjGplYGT0"
+                },
+                {
+                    "name":"COMO VAS?",
+                    "duration":"2:40",
+                    "link":"https://www.youtube.com/watch?v=4JRdn9eXZFA"
+                },
+                {
+                    "name":"BOUNCE",
+                    "duration":"3:04",
+                    "link":"https://www.youtube.com/watch?v=W7LJJ5sq25s"
+                },
+                {
+                    "name":"DOPE MONEY & HOES",
+                    "duration":"4:10",
+                    "link":"https://www.youtube.com/watch?v=dYfSWLlRls8"
+                },
+                {
+                    "name":"EBISU",
+                    "duration":"2:51",
+                    "link":"https://www.youtube.com/watch?v=TFIxuGR-b6M"
+                },
+                {
+                    "name":"ARMAGEDDON",
+                    "duration":"3:08",
+                    "link":"https://www.youtube.com/watch?v=QG-Cfln6DAE"
+                },
+                {
+                    "name":"WAR",
+                    "duration":"4:27",
+                    "link":"https://www.youtube.com/watch?v=BqiYjgxUQLg"
+                },
+                {
+                    "name":"PLAYING",
+                    "duration":"3:04",
+                    "link":"https://www.youtube.com/watch?v=8ZwRDt6M-m4"
+                },
+                {
+                    "name":"MUÉVELO",
+                    "duration":"2:29",
+                    "link":"https://www.youtube.com/watch?v=dakY2AjJ-Bk"
+                },
+                {
+                    "name":"NEW DRIP",
+                    "duration":"3:07",
+                    "link":"https://www.youtube.com/watch?v=ynIhvujFkSY"
+                },
+                {
+                    "name":"RIP THE WOO",
+                    "duration":"2:30",
+                    "link":"https://www.youtube.com/watch?v=6x21Zdfae54"
+                },
+                {
+                    "name":"BANDO BOYS FREE",
+                    "duration":"2:59",
+                    "link":"https://www.youtube.com/watch?v=ByDOVlNNUqU"
+                },
+                {
+                    "name":"PLUGSTAR",
+                    "duration":"2:32",
+                    "link":"https://www.youtube.com/watch?v=oveCGi1E-aA"
+                }
+            ]
+        },
+        {
+            "id":3,
+            "name":"Keoland",
+            "year":2018,
+            "img":"./img/albums/keoland.jpeg",
+            "songs":[
+                {
+                    "name":"One",
+                    "duration":"4:32",
+                    "link":"https://www.youtube.com/watch?v=5j55_Wbjq1Q"
+                },
+                {
+                    "name":"Dbtrap",
+                    "duration":"2:50",
+                    "link":"https://www.youtube.com/watch?v=6bTyMurScm8"
+                },
+                {
+                    "name":"#freetag",
+                    "duration":"3:31",
+                    "link":"https://www.youtube.com/watch?v=DQgSf0O4TsU"
+                },
+                {
+                    "name":"Skrr",
+                    "duration":"3:07",
+                    "link":"https://www.youtube.com/watch?v=p4EV-AMjK8I"
+                },
+                {
+                    "name":"Flashback",
+                    "duration":"2:34",
+                    "link":"https://www.youtube.com/watch?v=Dtbo8LCXWfI"
+                },
+                {
+                    "name":"Never Knew How to Love",
+                    "duration":"3:47",
+                    "link":"https://www.youtube.com/watch?v=wgebXXtPWUg"
+                },
+                {
+                    "name":"Miss U",
+                    "duration":"4:19",
+                    "link":"https://www.youtube.com/watch?v=_E1WmBlG9JI"
+                }
+            ]
+        },
+        {
+            "id":4,
+            "name":"The Giant",
+            "year":2017,
+            "img":"./img/albums/the-giant.jpeg",
+            "songs":[
+                {
+                    "name":"Lollypop",
+                    "duration":"2:42",
+                    "link":"https://www.youtube.com/watch?v=XrLzZdBGTAk"
+                },
+                {
+                    "name":"These Days",
+                    "duration":"3:03",
+                    "link":"https://www.youtube.com/watch?v=F0UvVAmZhF8"
+                },
+                {
+                    "name":"Trap Life",
+                    "duration":"3:44",
+                    "link":"https://www.youtube.com/watch?v=N9qI2ywwIYM"
+                },
+                {
+                    "name":"My Property",
+                    "duration":"4:13",
+                    "link":"https://www.youtube.com/watch?v=rUrLGIqrXkM"
+                },
+                {
+                    "name":"Kamata",
+                    "duration":"3:16",
+                    "link":"https://www.youtube.com/watch?v=4Jk0TaIEkhA"
+                },
+                {
+                    "name":"Superstars",
+                    "duration":"3:33",
+                    "link":"https://www.youtube.com/watch?v=HWHWU4izTd0"
+                }
+            ]
+        },
+        {
+            "id":5,
+            "name":"Welcome To Gotham",
+            "year":2017,
+            "img":"./img/albums/welcome-to-gotham.jpeg",
+            "songs":[
+                {
+                    "name":"Baller",
+                    "duration":"3:06",
+                    "link":"https://www.youtube.com/watch?v=AtkxhWI6sAE"
+                },
+                {
+                    "name":"Fux Ur Bitch",
+                    "duration":"3:42",
+                    "link":"https://www.youtube.com/watch?v=YlqcpIdA4ss"
+                },
+                {
+                    "name":"K.E.O.",
+                    "duration":"3:27",
+                    "link":"https://www.youtube.com/watch?v=GH4rAVl0DPI"
+                },
+                {
+                    "name":"Pablo-O",
+                    "duration":"3:57",
+                    "link":"https://www.youtube.com/watch?v=qIYkhadKS_A"
+                },
+                {
+                    "name":"Chapa",
+                    "duration":"4:04",
+                    "link":"https://www.youtube.com/watch?v=2DMP4vHyWE0"
+                },
+                {
+                    "name":"Bando Girl",
+                    "duration":"4:56",
+                    "link":"https://www.youtube.com/watch?v=UWymD3K1jRM"
+                }
+            ]
+        },
+        {
+            "id":6,
+            "name":"Old Times in Gotham",
+            "year":2017,
+            "img":"./img/albums/old-times-in-gotham.jpeg",
+            "songs":[
+                {
+                    "name":"Diamonds",
+                    "duration":"3:42",
+                    "link":"https://www.youtube.com/watch?v=Nr5rvRto6Kg"
+                },
+                {
+                    "name":"Foreign",
+                    "duration":"4:26",
+                    "link":"https://www.youtube.com/watch?v=BoihD9-pdko"
+                },
+                {
+                    "name":"Understand Me",
+                    "duration":"3:53",
+                    "link":"https://www.youtube.com/watch?v=vcA0pnHyOhE"
+                },
+                {
+                    "name":"Rarri",
+                    "duration":"3:54",
+                    "link":"https://www.youtube.com/watch?v=vcA0pnHyOhE"
+                },
+                {
+                    "name":"Runnaman",
+                    "duration":"3:39",
+                    "link":"https://www.youtube.com/watch?v=TDIMKPKhXxU"
+                },
+                {
+                    "name":"0640",
+                    "duration":"1:52",
+                    "link":"https://www.youtube.com/watch?v=_2ehsIBuavc"
+                }
+            ]
+        }]
+    },
+    {
+        "id":2,
+        "name":"Kaze",
+        "desc":"Rapero y productor musical español que lleva en la escena...",
+        "img":"https://i.scdn.co/image/ab6761610000e5eb7211a222877b9f15378d9f2d",
+        "albums":[{
+            "id":0,
+            "name":"No encajes",
+            "year":2016,
+            "img":"./img/albums/no-encajes.jpeg",
+            "songs":[
+                {
+                    "name":"Venga Lo Que Venga",
+                    "duration":"3:12",
+                    "link":"https://www.youtube.com/watch?v=jlbV9DkbdSI"
+                },
+                {
+                    "name":"Rap",
+                    "duration":"3:21",
+                    "link":"https://www.youtube.com/watch?v=aUrGR-4FwYY"
+                },
+                {
+                    "name":"Esos Ojos",
+                    "duration":"4:13",
+                    "link":"https://www.youtube.com/watch?v=FtSvXVc8Ic0"
+                },
+                {
+                    "name":"Nunca Digas No",
+                    "duration":"4:11",
+                    "link":"https://www.youtube.com/watch?v=94jCnfnzPxM"
+                },
+                {
+                    "name":"Constancia, Esfuerzo y Dedicación",
+                    "duration":"3:55",
+                    "link":"https://www.youtube.com/watch?v=DS1iw8lCyRE"
+                },
+                {
+                    "name":"Bye 2015/16",
+                    "duration":"4:06",
+                    "link":"https://www.youtube.com/watch?v=ch2iQshXtHw"
+                },
+                {
+                    "name":"No Quiero",
+                    "duration":"3:26",
+                    "link":"https://www.youtube.com/watch?v=3dvU1H2SQnA"
+                },
+                {
+                    "name":"No Encajes",
+                    "duration":"3:49",
+                    "link":"https://www.youtube.com/watch?v=xMNf25X__Ak"
+                },
+                {
+                    "name":"Esto Si Encaja",
+                    "duration":"3:08",
+                    "link":"https://www.youtube.com/watch?v=1q7z8AskSnc"
+                },
+                {
+                    "name":"Obsceno",
+                    "duration":"4:14",
+                    "link":"https://www.youtube.com/watch?v=V3jLinl9GSU"
+                },
+                {
+                    "name":"Me Voy Haciendo Un Hombre",
+                    "duration":"3:04",
+                    "link":"https://www.youtube.com/watch?v=oGZRBANuvow"
+                },
+                {
+                    "name":"Mientras Esté Yo",
+                    "duration":"3:51",
+                    "link":"https://www.youtube.com/watch?v=awF519v7Z3M"
+                },
+                {
+                    "name":"Yo Pude",
+                    "duration":"2:47",
+                    "link":"https://www.youtube.com/watch?v=bG4LMOB3AFw"
+                },
+                {
+                    "name":"Tensión",
+                    "duration":"3:27",
+                    "link":"https://www.youtube.com/watch?v=fOw1_c0WtFY"
+                },
+                {
+                    "name":"Amar o Amarme",
+                    "duration":"3:41",
+                    "link":"https://www.youtube.com/watch?v=u7UTWMONw7o"
+                },
+                {
+                    "name":"Miedo",
+                    "duration":"4:07",
+                    "link":"https://www.youtube.com/watch?v=XzVXaaAypJU"
+                },
+                {
+                    "name":"Por todos",
+                    "duration":"3:12",
+                    "link":"https://www.youtube.com/watch?v=6OoFGxzmZWE"
+                }
+            ]
+        }]
+    },
+    {
+        "id":3,
+        "name":"Kase O",
+        "desc":"Rapero, compositor y productor español, miembro del grupo...",
+        "img":"./img/artists/kase-o.jpeg",
+        "albums":[{
+            "id":0,
+            "name":"Remixes y Regalos",
+            "year":2019,
+            "img":"./img/albums/remixes-y-regalos.jpeg",
+            "songs":[
+                {
+                    "name":"Quién no",
+                    "duration":"3:44",
+                    "link":"https://www.youtube.com/watch?v=a7_jSP1YVqg"
+                },
+                {
+                    "name":"Esto no para",
+                    "duration":"3:59",
+                    "link":"https://www.youtube.com/watch?v=kG1p6f3T55E"
+                },
+                {
+                    "name":"Super natural",
+                    "duration":"4:29",
+                    "link":"https://www.youtube.com/watch?v=505zR1iEgQQ"
+                },
+                {
+                    "name":"Mazas y Catapultas",
+                    "duration":"3:13",
+                    "link":"https://www.youtube.com/watch?v=lUo_qRUIfvo"
+                },
+                {
+                    "name":"Amor sin cláusulas",
+                    "duration":"4:21",
+                    "link":"https://www.youtube.com/watch?v=8NR8OMTNy4s"
+                },
+                {
+                    "name":"Triste/Psico Mosaico Prosaico",
+                    "duration":"4:30",
+                    "link":"https://www.youtube.com/watch?v=ocy8FDIyXrc"
+                },
+                {
+                    "name":"Mitad y Mitad",
+                    "duration":"4:57",
+                    "link":"https://www.youtube.com/watch?v=L71r2g0DkcU"
+                },
+                {
+                    "name":"Bacalao",
+                    "duration":"3:17",
+                    "link":"https://www.youtube.com/watch?v=ueo-k-GNqvU"
+                },
+                {
+                    "name":"Pequeñas Dosis",
+                    "duration":"4:15",
+                    "link":"hhttps://www.youtube.com/watch?v=783lt1XK83w"
+                }
+            ]
+        },
+        {
+            "id":1,
+            "name":"El Círculo",
+            "year":2016,
+            "img":"./img/albums/el-circulo.jpeg",
+            "songs":[
+                {
+                    "name":"Intro",
+                    "duration":"4:59",
+                    "link":"https://www.youtube.com/watch?v=0jzYndTgaDY"
+                },
+                {
+                    "name":"Esto No Para",
+                    "duration":"4:05",
+                    "link":"https://www.youtube.com/watch?v=9JAAh8P-PnU"
+                },
+                {
+                    "name":"Yemen",
+                    "duration":"4:43",
+                    "link":"https://www.youtube.com/watch?v=YGICYKnIm2A"
+                },
+                {
+                    "name":"Guapo Tarde",
+                    "duration":"4:57",
+                    "link":"https://www.youtube.com/watch?v=RPtZZYyHNUU"
+                },
+                {
+                    "name":"Viejos Ciegos",
+                    "duration":"5:14",
+                    "link":"https://www.youtube.com/watch?v=SUbpqZgAQ2k"
+                },
+                {
+                    "name":"Interludio Quieren Copiar",
+                    "duration":"1:55",
+                    "link":"https://www.youtube.com/watch?v=TtkxcWP9wk4"
+                },
+                {
+                    "name":"Pavos Reales",
+                    "duration":"4:32",
+                    "link":"https://www.youtube.com/watch?v=AdBfUTsMhMI"
+                },
+                {
+                    "name":"Mitad y Mitad",
+                    "duration":"5:32",
+                    "link":"https://www.youtube.com/watch?v=zDZo9YOqcwM"
+                },
+                {
+                    "name":"Mazas y Catapultas",
+                    "duration":"3:31",
+                    "link":"https://www.youtube.com/watch?v=onOti-CEIq8"
+                },
+                {
+                    "name":"Amor Sin Cláusulas",
+                    "duration":"4:31",
+                    "link":"https://www.youtube.com/watch?v=HuALdv_2vXU"
+                },
+                {
+                    "name":"No Sé Que Voy A Hacer",
+                    "duration":"3:38",
+                    "link":"https://www.youtube.com/watch?v=gNOJaC5p1Yk"
+                },
+                {
+                    "name":"Interludio Risoterapia",
+                    "duration":"1:47",
+                    "link":"https://www.youtube.com/watch?v=WhYApTx4lzo"
+                },
+                {
+                    "name":"Rap Superdotado",
+                    "duration":"4:45",
+                    "link":"https://www.youtube.com/watch?v=HekeWfvfMlA"
+                },
+                {
+                    "name":"Repartiendo Arte",
+                    "duration":"4:42",
+                    "link":"https://www.youtube.com/watch?v=1vbZMpRTT5M"
+                },
+                {
+                    "name":"Basureta",
+                    "duration":"6:11",
+                    "link":"https://www.youtube.com/watch?v=Bxw2xr1XUBo"
+                },
+                {
+                    "name":"Outro",
+                    "duration":"3:16",
+                    "link":"https://www.youtube.com/watch?v=D-mXjcNkbsc"
+                }
+            ]
+        }]
+    }
+]

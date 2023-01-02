@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify</title>
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+
+    <script src="https://kit.fontawesome.com/c5a69afab5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <script src="./js/jquery-3.6.2.min.js"></script>
+    <script src="./js/main.js"></script>
+</head>
+<body>
+    <header>
+        <aside>
+            <div class="logo"><img src="./img/spotify-logo.png" alt="Spotify Logo" width="125px"></div>
+            <nav>
+                <ul>
+                    <a href="./index.html">
+                        <li>
+                            <i class="fa-solid fa-house"></i>
+                            Inicio
+                        </li>
+                    </a>
+                    <li>
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        Buscar
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-book-open"></i>
+                        Tu biblioteca
+                    </li>
+                </ul>
+            </nav>
+            <div class="lists">
+                <ul>
+                    <li>
+                        <i class="fa-solid fa-plus"></i>
+                        Crear lista
+                    </li>
+                    <li>
+                        <i class="fa-solid fa-heart"></i>
+                        Canciones que te gustan
+                    </li>
+                </ul>
+            </div>
+            <div class="policy">
+                <ul>
+                    <li>Cookies</li>
+                    <li>Privacidad</li>
+                </ul>
+            </div>
+        </aside>
+    </header>
+    <div class="content">
+        <div class="top-bar">
+            <div class="arrows">
+                <i id="goback" class="fa-solid fa-chevron-left"></i>
+                <i id="goforwards" class="fa-solid fa-chevron-right"></i>
+            </div>
+            <div class="account">
+                <a href="#"><button class="register">Registrarte</button></a>
+                <a href="#"><button class="login">Iniciar sesión</button></a>
+            </div>
+        </div>
+        <div class="sections">  
+            <div class="sect">
+                <div class="title-sect">
+                    <h2>Artistas</h2>
+                    <a href="#">Mostrar todos</a>
+                </div>
+                <div id="artists-sect">
+                </div>
+            </div>
+            <div class="sect">
+                <div class="title-sect">
+                    <h2>Álbumes</h2>
+                    <a href="#">Mostrar todos</a>
+                </div>
+                <div id="albums-sect">
+                    <div class="empty">
+                        Selecciona un artista para mostrar sus álbumes.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

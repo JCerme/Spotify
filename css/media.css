@@ -1,0 +1,15 @@
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    #artists-sect, #albums-sect {
+        gap: 20px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (min-width : 768px) and (max-width : 1024px){
+    #artists-sect, #albums-sect {
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .artist, .album{
+        max-height: 350px;
+    }
+}
