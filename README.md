@@ -1,133 +1,42 @@
-# Spotify con AJAX (jQuery) 🎵  
+![App Screenshot](https://spotify.jcerme.com/img/spotify_1.png)
 
-En este proyecto he decidido practicar las peticiones a un JSON mediante el AJAX de jQuery. El JSON que he creado son de solo unos pocos artistas, a pesar de haberme llevado más de 800 líneas de código.
+# 🎵 Spotify with AJAX (jQuery)
 
-El programa es muy simple, cuando carga la página llama al JSON pidiéndo únicamente los artistas (nombre, descripción e imagen).
-Una vez cargada esa petición podremos seleccionar uno de los artistas, esto provocará otra petición ajax, la cual filtrará por los álbumes solo y únicamente de ese artista.
-Tras haberse completado esa segunda petición podremos elegir el álbum, lo cual llamará al json para devolver las canciones de ese álbum con su nombre, duración y enlace de youtube.
-Al hacer click en los álbumes cambiará totalmente el diseño del contenedor, mostrando los datos del álbum arriba y las canciones abajo.
+In this project, I've decided to practice making requests to a JSON using jQuery's AJAX. The JSON I created contains only a few artists, despite it requiring over 800 lines of code.
 
-
-## Scripts del Head:
-```html
-<script src="https://kit.fontawesome.com/c5a69afab5.js" crossorigin="anonymous"></script>
-<link rel="stylesheet" href="./css/styles.css">
-<link rel="stylesheet" href="./css/media.css">
-<script src="./js/jquery-3.6.2.min.js"></script>
-<script src="./js/main.js"></script>
-```
-El primer script es facilitado desde el apartado 
+The program is very simple; when the page loads, it calls the JSON requesting only the artists (name, description, and image).
+Once that request is loaded, we can select one of the artists, which will trigger another AJAX request, filtering for only that artist's albums.
+Once that second request is completed, we can choose the album, which will call the JSON to return the songs from that album with their name, duration, and YouTube link.
+When clicking on the albums, the container design will completely change, showing the album data at the top and the songs below.
 
 
-## HTML & CSS
-Para desarrollar esta barra lateral he utilizado la etiqueta \<aside\> y he añadido las listas y logo dentro, todo contenido en \<header\>.
-
-Para mostrar el diseño en 2 secciones necesitamos solo y unicamente 2 secciones hijas en el body. En caso de tener tres, el diseño se romperá por completo ya que el body tiene la propiedad "grid" con un template-columns "1fr 3fr", lo cual significa que si dividimos el ancho total en 4 secciones, una de ellas (la primera) corresponderá con el primer div/section/aside/... y las otras tres secciones corresponderan con el otro div/section/aside/...
-
-En mi caso, el primer elemento es \<header\> y el segundo \<div class="content"\>
-```css
-body{
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    overflow-x: hidden;
-    ...
-}
-header{
-    min-width: 350px;
-}
-header aside{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    position: fixed;
-    ...
-}
-.content{
-    width: 100%;
-    min-height: 100vh;
-    ...
-}
-```
-
-En el div .content he dividido el espacio en diferentes bloques, una barra superior:
-```css
-.top-bar{
-    position: absolute;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    ...
-}
-```
-<img width="100%" src="https://jcerme.com/spotify/img/top-bar.png">
-Los elementos de la barra lateral no tienen ninguna acción, solo el logotipo y el elemento "Inicio". Tampoco añadí funcionalidad a la barra superior del contenido.
+## 🛠 Skills Used
+HTML, CSS & jQuery
 
 
-## jQuery
-La petición ajax con jQuery es muy simple, en este caso he utilizado ".getJSON" porque hago la solicitud a un archivo json. En caso de que sea cualquier otro, se puede utilizar directamente .ajax y, dentro, añadir "dataType:'json'".
+## 📸 Screenshots
+### Artist Cards
+![App Screenshot](https://spotify.jcerme.com/img/spotify_2.png)
+![App Screenshot](https://spotify.jcerme.com/img/spotify_3.png)
 
-```js
-$.getJSON({
-    url: './js/artistas.json',
-    success: function(data) {
-        data.forEach(function(value){
-            artistCard += ...
-        });
-    },
-    error: function(xhr, status) {
-        alert('Ha habido algún problema al hacer la petición');
-    },
-}).done(function(){
-    $('#artists-sect').append(artistCard);
-    addEvent2();
-});
-```
-
-Dentro de la función tenemos:
-· El elemento "success" que ejecutará el código en caso de que la petición se realice correctamente.
-· El elemento "error" que ejecutará el código en caso de que la petición sea errónea.
-· El elemento "complete" que ejecutará el código haya sido una petición correcta o errónea.
-
-Y luego tenemos la propiedad .done del .getJSON/.ajax, que sirve para ejecutar el código cuando la petición sea correcta y el código dentro del success se haya ejecutado.
+### Album view
+![App Screenshot](https://spotify.jcerme.com/img/spotify_4.png)
 
 
-## JSON:
-```json
-[
-    {
-        "id":0,
-        "name":"Bad Bunny",
-        "img":"./img/artists/bad-bunny.jpg",
-        "desc":"Es un cantantante, compositor y productor puertorriqueño...",
-        "albums":[{
-            "id":0,
-            "name":"Un verano sin tí",
-            "year":2022,
-            "img":"./img/albums/un-verano-sin-ti.jpeg",
-            "songs":[
-                {
-                    "name":"Moscow Mule",
-                    "duration":"4:06",
-                    "link":"https://www.youtube.com/watch?v=p38WgakuYDo"
-                }
-```
+## 📖 What I've Learned?
+With this project, I've learned about making AJAX requests using jQuery, dealing with JSON data, and dynamically updating the user interface based on user interaction. I've also practiced using CSS Grid to create a responsive layout that changes based on user selections.
 
 
-## Artistas:
-Estos son los artistas que he utilizado, cada uno de los artistas tiene sus álbumes y sus respectivas canciones:
-<table>
-  <tr>
-    <td>
-      <img width="100%" src="https://jcerme.com/spotify/img/badbunny-card.png">
-    </td>
-    <td>
-      <img width="100%" src="https://jcerme.com/spotify/img/kiddkeo-card.png">
-    </td>
-    <td>
-      <img width="100%" src="https://jcerme.com/spotify/img/kaze-card.png">
-    </td>
-    <td>
-      <img width="100%" src="https://jcerme.com/spotify/img/kaseo-card.png">
-    </td>
-  </tr>
-</table>
+## 🚀 About Me
+My name is Jorge, but I prefer to be called Cerme (JCerme).
+
+I am a Web Application Development Technician with extensive knowledge in Back-end and Front-end (Full-Stack Developer).
+
+I also have knowledge in Cybersecurity and UX/UI Design, among many other areas. I love exploring the technological world, and my goal is to provide users with a comfortable, reliable, and attractive experience.
+
+Any suggestions or contributions are welcome.
+You can contact me at:
+
+[![portfolio](https://img.shields.io/badge/https://jcerme.com-5f17ce?style=for-the-badge&logo=ko-fi&logoColor=white)](https://jcerme.com/)
+[![linkedin](https://img.shields.io/badge/jorge_cermeno-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/jorge-cermeno)
+[![correo](https://img.shields.io/badge/contact@jcerme.com-red?style=for-the-badge&logo=gmail&logoColor=white)](mailto:contact@jcerme.com)
